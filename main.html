@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <title>Drum</title>
+</head>
+<body>
+    <div class="main">
+        <div class="drum">
+            <button class="key-a" onkeypress="playSoundA()">A</button>
+            <button class="key-d" onkeypress="playSoundD()">D</button>
+            <button class="key-g" onkeypress="playSoundG()">G</button>
+            <button class="key-j" onkeypress="playSoundJ()">J</button>
+            <button class="key-l" onkeypress="playSoundL()">L</button>
+        </div>
+    </div>
+    <audio src="./MP3/a.mp3" class="soundA" id="soundA" type="audio/mpeg"></audio>
+    <audio src="./MP3/d.mp3" class="soundD" id="soundD" type="audio/mpeg"></audio>
+    <audio src="./MP3/g.mp3" class="soundG" id="soundG" type="audio/mpeg"></audio>
+    <audio src="./MP3/j.mp3" class="soundJ" id="soundJ" type="audio/mpeg"></audio>
+    <audio src="./MP3/l.mp3" class="soundL" id="soundL" type="audio/mpeg"></audio>
+
+
+
+</body>
+<script src="./JS/main.js"></script>
+</html>

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.drum{
+    background-image: url(../IMG/drum.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 900px;
+    height: 100vh;
+    position: relative;
+    min-width: 700px;
+    margin: 0 auto;
+}
+button{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+.key-a{
+    top: 70px;
+    left: 250px;
+}
+.key-d{
+    top: 50%;
+    left: 25%;
+}
+.key-g{
+    top: 55%;
+    left: 55%;
+}
+.key-j{
+    top: 32%;
+    left: 45%;
+}
+.key-l{
+    top: 20%;
+    left: 72%;
+}
